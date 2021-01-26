@@ -1,11 +1,19 @@
 body {
-  background-color: white;
   color: lightcoral;
+  text-align: center;
+  margin: auto;
+  width: 50%;
 }
 
-.clicked{
-  color:gray;
+.main{
+  color: White;
+  font-size: 8vw;
 }
+.second{
+  color: White;
+  font-size: 3.5vw;
+}
+
 
 .form,
 .grettings {
