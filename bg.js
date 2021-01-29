@@ -15,9 +15,13 @@ function genRandom(){
   return number;
 }
 
+
 function init(){
   const randomNumber = genRandom();
   paintImage(randomNumber);
+  setInterval(function() {
+  const randomNumber = genRandom();
+  paintImage(randomNumber);
+}, 12000);
 }
-
 init();
