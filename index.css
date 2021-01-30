@@ -1,17 +1,32 @@
 body {
   color: lightcoral;
-  text-align: center;
-  margin: auto;
-  width: 50%;
+  margin-left: 50px;
 }
 
-.main{
-  color: White;
-  font-size: 8vw;
-}
-.second{
+.js_clock{
+  font-weight : bold;
+  display: table;
   color: White;
   font-size: 3.5vw;
+  background-color: rgb(211,211,211, 0.5);
+  padding-left: 20px;
+  padding-right: 20px;
+  padding-bottom: 10px;
+  border-radius: 20px;
+}
+.main{
+  font-size: 8vw;
+  opacity: 1;
+}
+.ampm{
+  font-size: 2.6vw;
+  color: bisque;
+}
+.ampm_second{
+  font-size: 3.5vw;
+  padding-left: 8px;
+  display: table-cell;
+  vertical-align: middle;
 }
 
 
