@@ -1,13 +1,57 @@
 body {
-  color: lightcoral;
-  margin-left: 50px;
+  background-color: #000;
+  background-image: url("images/bg.jpg");
+  background-size: cover;
+  background-position: top center;
+  padding-top: 20px;
+  padding-right: 32px;
+  padding-left: 32px;
+  text-align: center;
 }
+
+.avatar{
+  border-radius: 100%;
+  display:inline-block;
+  padding: 0.4rem;
+  background-color: rgba(255,255,255,0.05);
+  border:1px solid  rgba(255,255,255,0.25);
+}
+.avatar img{    
+  width: auto; height: auto;
+  max-width: 120px;
+  max-height: 120px;
+  border-radius: 100%;
+  display: block;
+}
+
+.btn{
+  text-decoration: none;
+  font-size: 2rem;
+  color: white;
+  padding: 10px 20px 10px 20px;
+  margin:20px;
+  display: inline-block;
+  border-radius: 10px;
+  transition: all 0.1s;
+  text-shadow: 0px -2px rgb(0, 0, 0.44);
+  font-family: 'Roboto', sans-serif;
+}
+.btn:active{
+  transform: translateY(3px);
+}
+.btn.blue{
+  background-color: #1f75d9;
+  border-bottom: 5px solid #0a2749ee;
+}
+.btn.blue:active{
+  border-bottom: 2px solid #0a2749ee;
+}
+
 
 .js_clock{
   font-weight : bold;
   display: table;
   color: White;
-  font-size: 3.5vw;
   background-color: rgb(211,211,211, 0.5);
   padding-left: 20px;
   padding-right: 20px;
@@ -15,15 +59,15 @@ body {
   border-radius: 20px;
 }
 .main{
-  font-size: 8vw;
+  font-size: 4rem;
   opacity: 1;
 }
 .ampm{
-  font-size: 2.6vw;
+  font-size: 1.5rem;
   color: bisque;
 }
 .ampm_second{
-  font-size: 3.5vw;
+  font-size: 2rem;
   padding-left: 8px;
   display: table-cell;
   vertical-align: middle;
@@ -48,6 +92,7 @@ body {
   }
 }
 
+/*
 .bgImage {
   position: absolute;
   top: 0;
@@ -57,3 +102,4 @@ body {
   z-index: -1;
   animation: fadeIn 1s linear;
 }
+*/

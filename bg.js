@@ -22,6 +22,6 @@ function init(){
   setInterval(function() {
   const randomNumber = genRandom();
   paintImage(randomNumber);
-}, 12000);
+}, 240000);
 }
 init();
