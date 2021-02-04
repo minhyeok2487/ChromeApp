@@ -1,4 +1,3 @@
-
 body {
   background-color: #000;
   background-image: url("images/bg.jpg");
@@ -7,8 +6,8 @@ body {
   padding-top: 20px;
   padding-right: 32px;
   padding-left: 32px;
-  text-align: center;
 }
+
 
 .avatar{
   border-radius: 100%;
@@ -55,15 +54,15 @@ body {
   color: White;
 }
 .main{
-  font-size: 10rem;
+  font-size: 16rem;
   opacity: 1;
 }
 .ampm{
-  font-size: 3rem;
+  font-size: 5rem;
   color: bisque;
 }
 .ampm_second{
-  font-size: 3.7rem;
+  font-size: 6.6rem;
   padding-left: 8px;
   display: table-cell;
   vertical-align: middle;
@@ -71,9 +70,25 @@ body {
 
 .YMD{
   font-weight : bold;
-  font-size: 1.5rem;
+  font-size: 3.5rem;
   color: white;
+  text-align: center;
 }
+
+header{
+  width: 580px;
+  padding: 20px;
+  margin-bottom: 20px;
+  border: 1px solid #bcbcbc;
+}
+
+.todo{
+  width: 260px;
+  padding: 20px;
+  margin-bottom: 20px;
+  border: 1px solid #bcbcbc;
+}
+
 
 .form,
 .grettings {

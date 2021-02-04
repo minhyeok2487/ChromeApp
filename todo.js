@@ -10,7 +10,6 @@ function saveToDos(){
     localStorage.setItem(TODOS_LS, JSON.stringify(toDos));
 }
 
-
 function deleteToDo(event){
     const btn = event.target;
     const li = btn.parentNode;

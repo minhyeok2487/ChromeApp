@@ -25,7 +25,15 @@ function askForName(){
 function paintGreeting(text){
     form.classList.remove(SHOWING_CN);
     greeting.classList.add(SHOWING_CN);
-    greeting.innerText = `Hello ${text}`;
+    if(text==="Minhyeok"){
+      greeting.innerText = `${text}
+      Ajou University Industrial Engineering
+      Full-Stack Developer
+      Machine learning & Deep learning Developer`;
+    }
+    else{
+      greeting.innerText = `Hello ${text}`;
+    }
 }
 
 function loadName(){
