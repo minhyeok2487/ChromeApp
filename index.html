@@ -6,7 +6,7 @@
     <meta charset="utf-8" />
     <link rel="stylesheet" href = "index.css"/>
   </head>
-  <body>
+  <body contextmenu="return false" ondragstart="return false" onselectstart="return false">
     <header>
       <span class="avatar"><img src="images/avatar.jpg" alt="" /></span>
       <h2 class="js-greetings greetings"></h2>
@@ -14,7 +14,6 @@
         <input type="text" placeholder="What is your name?" />
       </form>
     </header>
-      <a class="btn blue" href="#blue">blue</a>
       <div class="js_clock">
         <span class="main"></span>
         <div class="ampm_second">
@@ -22,12 +21,15 @@
           <span class="second"></span>
         </div>
       </div>
+      <div class="YMD"></div></br>
       <form class="js-toDoForm">
         <input type="text" placeholder="Write a to do" />
       </form>
       <ul class="js-toDoList"></ul>
+      <a class="btn blue" href="#blue">blue</a>
       <script src="gretting.js"></script>
       <script src="clock.js"></script>
       <script src="todo.js"></script>
+      <script src="YMD.js"></script>
     </body>
 </html>
